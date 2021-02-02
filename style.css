@@ -38,3 +38,9 @@ small {
   0 14px 28px rgba(0, 0, 0, 0.25),
   0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
+.loveMe .fa-heart {
+  position: absolute;
+  animation: grow 0.6 linear;
+  transform: translate(-50%, -50%) scale(0);
+}
