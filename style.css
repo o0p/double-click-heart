@@ -44,3 +44,10 @@ small {
   animation: grow 0.6 linear;
   transform: translate(-50%, -50%) scale(0);
 }
+
+@keyframes grow {
+  to {
+  transform: translate(-50%, -50%) scale(10);
+  opacity: 0;
+  }
+}
